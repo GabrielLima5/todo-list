@@ -1,0 +1,39 @@
+.App{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(0deg, #7386ff, #0090b8);
+}
+
+.main > div:not(:nth-child(1)){
+    margin-top: 80px;
+}
+
+.main{
+    width: 600px;
+    background-color: #88cae7;
+    padding: 20px;
+    color: #050055;
+}
+
+.main h1{
+    font-size: 3rem;
+    margin: 10px 0;
+}
+
+.main span{
+    font-size: .8rem;
+}
+
+@media only screen and (max-width: 700px){
+    .main{
+        width: 400px;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .main{
+        width: 250px;
+    }
+}
